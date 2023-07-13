@@ -1,0 +1,16 @@
+name: Milou's corner
+
+baseurl: '' # the subpath of your site, e.g. /blog
+url: '' # the base hostname & protocol for your site, e.g. http://example.com
+
+defaults:
+  - scope:
+      path: '' # an empty string here means all files in the project
+      type: 'posts'
+    values:
+      layout: 'default'
+
+sass:
+  sass_dir: _sass
+  style: expanded
+  # style: compressed

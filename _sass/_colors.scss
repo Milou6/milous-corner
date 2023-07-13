@@ -1,0 +1,14 @@
+$white: white;
+$yellow: rgb(237, 218, 10);
+
+$grey: rgba(0, 0, 0, 0.09);
+$grey2: hsl(0, 0%, 9.8%);
+
+// $logo1: hsl(0, 100%, 70%);
+$logo1: hsl(341, 100%, 47.6%);
+
+:export {
+  primaryColor: $logo1;
+  // backgroundColor: $background-color;
+  // padding: $padding;
+}

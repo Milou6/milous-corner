@@ -1,0 +1,41 @@
+---
+---
+
+@import 'base';
+@import 'colors';
+@import 'typography';
+
+// _includes
+@import './includes/header';
+@import './includes/navbar';
+@import './includes/footer';
+
+body {
+  margin: 0;
+  // font-family: $font-josefin;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 70ch;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+      font-family: $ff-josefin;
+      font-size: 25px;
+    }
+
+    p {
+      font-family: $ff-spectral;
+      font-size: 19px;
+      line-height: 30px;
+    }
+  }
+}

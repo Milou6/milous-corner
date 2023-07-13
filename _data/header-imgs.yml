@@ -1,0 +1,5 @@
+- name: header-image-1.jpg
+  color: red
+
+- name: header-image-2.jpg
+  color: green
