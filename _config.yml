@@ -1,7 +1,9 @@
 name: Milou's corner
 
-baseurl: '' # the subpath of your site, e.g. /blog
-url: '' # the base hostname & protocol for your site, e.g. http://example.com
+# baseurl: '' # the subpath of your site, e.g. /blog
+# url: '' # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: /
+url: http://milou6.github.io
 
 defaults:
   - scope:
